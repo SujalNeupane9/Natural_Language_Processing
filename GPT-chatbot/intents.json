@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "Hi, how can I assist you?", "Greetings! How may I help you?"],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Take care", "Farewell"],
+      "responses": ["Goodbye!", "See you later!", "Take care!", "Goodbye! Have a great day!", "Farewell!"],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Appreciate it", "Thanks a lot", "Many thanks"],
+      "responses": ["You're welcome!", "No problem!", "Glad to help!", "You're welcome! Let me know if there's anything else I can do for you."],
+      "context": [""]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": ["I'm sorry, I don't have an answer for that.", "I'm not sure I understand. Can you provide more information?", "I'm sorry, I couldn't find the information you're looking for."],
+      "context": [""]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["How are you?", "How's it going?", "How do you do?", "How are you doing?"],
+      "responses": ["I'm just a machine learning model, so I don't have feelings, but I'm here and ready to assist you!", "As an AI, I don't have feelings, but I'm at your service!", "I'm doing well in the digital realm. How can I help you today?"],
+      "context": [""]
+    },
+    {
+      "tag": "introduction",
+      "patterns": ["Tell me about yourself", "Who are you?", "What are you?"],
+      "responses": ["I am an AI language model, created by OpenAI. My purpose is to assist and provide information to users like you.", "I'm an AI language model, designed to understand and respond to natural language. I'm constantly learning and improving to better serve you.", "I am ChatGPT, an AI language model. My goal is to assist you with any questions or tasks you have."],
+      "context": [""]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "When were you born?", "What's your age?"],
+      "responses": ["I am an artificial intelligence and don't have an age. I'm constantly updating and improving with new data!", "As an AI language model, I don't age. I'm always up-to-date with the latest information.", "I'm ageless as I'm just a program running on servers. How can I assist you?"],
+      "context": [""]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Do you have a name?", "Tell me your name"],
+      "responses": ["I am ChatGPT, your virtual assistant.", "You can call me ChatGPT.", "My name is ChatGPT, at your service!"],
+      "context": [""]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Can you help me?", "I need assistance", "Help me please", "Can you assist?", "I'm stuck, help"],
+      "responses": ["Of course! I'm here to help. Please let me know what you need assistance with.", "Sure thing! What do you need help with?", "I'd be happy to help. What can I assist you with?"],
+      "context": [""]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Tell me the current weather", "Weather forecast", "How's the weather today?", "Weather update"],
+      "responses": ["I'm sorry, I am an AI language model and cannot provide real-time information. Please check a weather website or app for the current weather.", "I don't have access to real-time data, but you can find accurate weather information from various weather services.", "As an AI language model, I don't have access to live data. You can check the weather through a reliable weather website or app."],
+      "context": [""]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke", "Say something funny", "Joke of the day", "Share a joke"],
+      "responses": ["Sure, here's a joke: Why don't scientists trust atoms? Because they make up everything!", "Here's a funny one: Why don't some couples go to the gym? Because some relationships don't work out!", "How about this one: Why don't some fish play piano? You can't tuna fish!"],
+      "context": [""]
+    },
+    {
+      "tag": "movie_recommendation",
+      "patterns": ["Can you recommend a movie?", "Looking for a good movie", "Suggest a film", "Movie recommendation please", "Any good movies to watch?"],
+      "responses": ["Certainly! How about watching 'The Shawshank Redemption'? It's a highly acclaimed drama film directed by Frank Darabont.", "I recommend 'Inception'. It's a mind-bending science fiction movie directed by Christopher Nolan.", "You might enjoy 'Pulp Fiction'. It's a classic crime film directed by Quentin Tarantino."],
+      "context": [""]
+    },
+    {
+      "tag": "book_recommendation",
+      "patterns": ["Any book recommendations?", "Looking for a good book", "Suggest a book", "Book recommendation please", "What book should I read?"],
+      "responses": ["Sure! I recommend '1984' by George Orwell. It's a dystopian novel that has remained a classic.", "You might enjoy 'To Kill a Mockingbird' by Harper Lee. It's a powerful and thought-provoking book.", "How about reading 'The Great Gatsby' by F. Scott Fitzgerald? It's a masterpiece of American literature."],
+      "context": [""]
+    }
+  ]
+}
